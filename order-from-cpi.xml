@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<purchaseOrder orderId="98765" status="Processing">
+    <timestamp>2026-06-12T12:44:51Z</timestamp>
+    <customer>
+        <customerId>CUST-404</customerId>
+        <name>Jane Doe</name>
+        <email>jane.doe@example.com</email>
+        <phone>+1-555-0199</phone>
+    </customer>
+    <shippingAddress>
+        <street>123 Tech Ventures Blvd</street>
+        <city>Austin</city>
+        <state>TX</state>
+        <postalCode>78701</postalCode>
+        <country>USA</country>
+    </shippingAddress>
+    <items>
+        <item sku="APP-001" giftWrap="false">
+            <productName>Wireless Ergonomic Keyboard</productName>
+            <quantity>1</quantity>
+            <unitPrice>89.99</unitPrice>
+            <currency>USD</currency>
+        </item>
+        <item sku="APP-042" giftWrap="true">
+            <productName>Optical Gaming Mouse</productName>
+            <quantity>2</quantity>
+            <unitPrice>45.00</unitPrice>
+            <currency>USD</currency>
+        </item>
+    </items>
+    <payment>
+        <method>Credit Card</method>
+        <subtotal>179.99</subtotal>
+        <tax>14.40</tax>
+        <shippingCost>0.00</shippingCost>
+        <total>194.39</total>
+        <isPaid>true</isPaid>
+    </payment>
+</purchaseOrder>
